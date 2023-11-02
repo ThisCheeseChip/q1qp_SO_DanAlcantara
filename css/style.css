@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@700&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*for every page*/
+.header {
+    background-color: rgb(146, 146, 146);
+    height: 15vh;
+    width: 100%;
+}
+
+.header h1 {
+    color: white;
+    font-size: 39px;
+    padding: 25px;
+    margin-left: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;  
+    transition: 1.5s;
+}
+/*for every page^^*/
+
+.content {
+    display: flex;
+    height: 60vh;
+}
+
+/*for every page except statistics page*/
+.sidebar {
+    background-color: rgb(68, 65, 65);
+    width: 10%;
+    height: 67.5vh;
+}
+
+.links {
+    margin-left: 2vw;
+    transition: 1.5s;
+}
+/*for every page^^*/
+
+/*for every page unless has modified things (youll see them when you scroll lower)*/
+.maincontent {
+    background-color: lightgrey;
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.maincontent h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    margin-left: 10vw;
+    font-size: 39px;
+    transition: 1.5s;
+}
+
+.truemaincontent {
+    background-color: rgb(102, 95, 95);
+    width: 90vw;
+    height: 52.5vh;
+    transition: 1.5s;
+}
+
+.truemaincontent h1 {
+    font-size: 40px;
+    color: white;
+    margin-left: 2vw;
+}
+
+.boxcontent h1#content {
+    background-color: rgb(68, 65, 65);
+    font-size: 32.5px;
+    height: 37.5vh;
+    width: 86vw;
+    padding: 25px;
+    transition: 1.5s;
+}
+/*for every page unless has modified things (youll see them when you scroll lower)^^*/
+
+/*for every page except statistics page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.footer{
+    background-color: rgb(158, 150, 150);
+    height: 20vh;
+    width: 100%;
+    margin-top: 5vh;
+    overflow: hidden;
+}
+
+.footer h1 {
+    font-size: 20px;
+    padding: 50px;
+    transition: 1.5s;
+}
+
+#github, #fb, #twt{
+    float: right;
+    transition: 1.5s;
+}
+/*for every page^^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*for background page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.boxcontent2_1 h1#content {
+    background-color: rgb(68, 65, 65);
+    height: 37.5vh;
+    width: 47vw;
+    padding: 25px;
+    transition: 1.5s;
+}
+
+.truemaincontent_1 {
+    background-color: rgb(102, 95, 95);
+    width: 90vw;
+    height: 52.5vh;
+    transition: 1.5s;
+}
+
+.truemaincontent_1 h1 {
+    font-size: 25px;
+    color: white;
+    margin-left: 2vw;
+}
+
+#supercoolimg{
+    float: right;
+    margin-right: 5vw;
+    height: 20vw;
+    width: 30vw;
+    transition: 1.5s; 
+}
+/*for background page^^ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/*for statistics page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.header1 {
+    background-color: rgb(146, 146, 146);
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+}
+
+.header1 h1 {
+    color: white;
+    font-size: 39px;
+    padding: 25px;
+    margin-left: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;  
+    position: fixed;
+    transition: 1.5s;
+}
+
+.sidebar1 {
+    background-color: rgb(68, 65, 65);
+    width: 10%;
+    height: 100%;
+    position: fixed;
+}
+
+.links {
+    margin-left: 2vw;
+    transition: 1.5s;
+}
+
+.fillerheader {
+    background-color: rgb(146, 146, 146);
+    height: 15vh;
+    width: 100%;
+}
+
+.fillersidebar {
+    background-color: rgb(68, 65, 65);
+    width: 10%;
+    border: 1px solid rgb(68, 65, 65);
+}
+
+.truemaincontent3 {
+    background-color: rgb(102, 95, 95);
+    width: 90vw;
+    height: fit-content;
+    transition: 1.5s;
+    margin-left: 1vw;
+}
+
+.truemaincontent3 h1 {
+    font-size: 37.5px;
+    color: white;
+    margin-left: 2vw;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85vw;
+    color: white;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    transition: 1.5s;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+}  
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+    color: black;
+}
+
+.fillerfooter{
+    background-color: rgb(158, 150, 150);
+    height: 20vh;
+    width: 100%;
+    border: 1px solid rgb(158, 150, 150);
+}
+
+.maincontent1 {
+    background-color: lightgrey;
+    margin-left: 2vw;
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.maincontent1 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    margin-left: 10vw;
+    font-size: 39px;
+    transition: 1.5s;
+}
+
+.boxcontent3_1 h1#content {
+    background-color: rgb(68, 65, 65);
+    height: 37.5vh;
+    width: 47vw;
+    padding: 25px;
+    transition: 1.5s;
+    font-size: 22.5px;
+}
+
+.fillermaincontent {
+    background-color: lightgrey;
+    width: 90vw;
+    height: 15vh;
+    border: 1px solid lightgrey;
+}
+
+.filler {
+    background-color: rgb(102, 95, 95);
+    height: 10%;
+    width: 100%;
+    border: 1px solid rgb(102, 95, 95);
+}
+
+
+.footer1{
+    background-color: rgb(158, 150, 150);
+    height: 20vh;
+    width: 100%;
+    margin-top: 5vh;
+    position: fixed;
+}
+
+.footer1 h1 {
+    font-size: 20px;
+    padding: 50px;
+    transition: 1.5s;
+}
+
+.descriptive_data {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frequency_data {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barchart h1{
+    margin-left: 9.5vw;
+}
+
+.piechart h1{
+    margin-left: 9.5vw;
+}
+
+.boxcontent3_2 h1#content {
+    background-color: rgb(68, 65, 65);
+    height: 37.5vh;
+    width: 85vw;
+    padding: 25px;
+    transition: 1.5s;
+    margin-left: 3vw;
+    font-size: 35px;
+}
+
+
+/*for references page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+.boxcontent h1#content4 {
+    background-color: rgb(68, 65, 65);
+    font-size: 25px;
+    height: 37.5vh;
+    width: 86vw;
+    padding: 25px;
+    transition: 1.5s;
+}
+
+.boxcontent h1#content4 a{
+    text-decoration: none;
+    color: white;
+}
+/*for references page^^!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+
+/*for about page !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+.truemaincontent #members{
+    margin-left: 3vw;
+}
+
+.boxcontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxcontent div#content5_1, .boxcontent div#content5_2, .boxcontent div#content5_3 {
+    background-color: rgb(68, 65, 65);
+    height: 37.5vh;
+    width: 25vw;
+    padding: 25px;
+    transition: 1.5s;
+}
+
+div#content5_1 h1, div#content5_2 h1, div#content5_3 h1{
+    font-size: 22.5px;
+}
+
+#profile1{
+    margin-left: 2.5vw;
+}
+
+#profile2{
+    margin-left: 2.7vw;
+}
+
+#profile3{
+    margin-left: 2.5vw;
+}
+/*for about page^^*/
